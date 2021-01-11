@@ -1,0 +1,227 @@
+country,totalcase,newcase,newdeath,recovered,active,conti
+Afghanistan,"51,764",169,"2,148","40,665","8,951",Asia
+Africa,"26,13,400",646,"61,549","21,88,447","3,63,404",Africa
+Albania,"54,827",Null,"1,125","30,276","23,426",Europe
+Algeria,"97,007",Null,"2,705","64,777","29,525",Africa
+Andorra,"7,699",Null,83,"7,171",445,Europe
+Angola,"17,029",Null,393,"9,729","6,907",Africa
+Anguilla,11,Null, ,10,1,North America
+Antigua and Barbuda,154,Null,5,146,3,North America
+Argentina,"15,71,680",Null,"42,392","13,84,277","1,45,011",South America
+Armenia,"1,56,763",621,"2,733","1,37,815","16,215",Asia
+Aruba,"5,257",Null,47,"5,031",179,North America
+Asia,"2,01,61,462","33,183","3,28,733","1,85,22,436","13,10,293",Asia
+Australia,"28,273",11,908,"25,722","1,643",Australia/Oceania
+Australia/Oceania,"47,843",11,"1,052","33,373","13,418",Australia/Oceania
+Austria,"3,49,055","1,851","5,783","3,18,154","25,118",Europe
+Azerbaijan,"2,10,061",Null,"2,380","1,55,886","51,795",Asia
+Bahamas,"7,788",Null,169,"6,166","1,453",North America
+Bahrain,"91,070",Null,350,"88,963","1,757",Asia
+Bangladesh,"5,07,265","1,163","7,398","4,48,803","51,064",Asia
+Barbados,345,Null,7,291,47,North America
+Belarus,"1,83,006","1,893","1,367","1,61,832","19,807",Europe
+Belgium,"6,34,904","2,583","19,038","43,749","5,72,117",Europe
+Belize,"10,490",Null,228,"9,081","1,181",North America
+Benin,"3,205",Null,44,"3,061",100,Africa
+Bermuda,560,Null,9,338,213,North America
+Bhutan,541,22, ,442,99,Asia
+Bolivia,"1,53,121","1,057","9,076","1,29,387","14,658",South America
+Bosnia and Herzegovina,"1,08,298",Null,"3,878","73,896","30,524",Europe
+Botswana,"14,025",Null,40,"11,627","2,358",Africa
+Brazil,"74,25,593",Null,"1,90,032","64,49,822","7,85,739",South America
+British Virgin Islands,86,Null,1,74,11,North America
+Brunei ,152,Null,3,149,0,Asia
+Bulgaria,"1,96,658",Null,"7,023","1,07,680","81,955",Europe
+Burkina Faso,"5,941",Null,77,"4,129","1,735",Africa
+Burundi,773,Null,2,687,84,Africa
+Cabo Verde,"11,688",Null,112,"11,366",210,Africa
+Cambodia,363,Null, ,354,9,Asia
+Cameroon,"26,277",Null,448,"24,892",937,Africa
+Canada,"5,35,212",Null,"14,719","4,44,063","76,430",North America
+CAR,"4,948",Null,63,"1,924","2,961",Africa
+Caribbean Netherlands,182,Null,3,174,5,North America
+Cayman Islands,318,Null,2,290,26,North America
+Chad,"1,958",Null,102,"1,651",205,Africa
+Channel Islands,"2,880",Null,57,"1,898",925,Europe
+Chile,"5,93,310",Null,"16,303","5,63,457","13,550",South America
+China,"86,913",14,"4,634","81,959",320,Asia
+Colombia,"15,59,766",Null,"41,454","14,17,316","1,00,996",South America
+Comoros,715,Null,7,626,82,Africa
+Congo,"6,571",Null,100,"4,988","1,483",Africa
+Costa Rica,"1,62,990",Null,"2,086","1,28,842","32,062",North America
+Croatia,"2,03,962","1,643","3,548","1,86,553","13,861",Europe
+Cuba,"10,717",Null,139,"9,378","1,200",North America
+Curaçao,"4,099",Null,12,"2,430","1,657",North America
+Cyprus,"19,316",Null,107,"2,057","17,152",Asia
+Czechia,"6,64,863","4,363","10,859","5,57,696","96,308",Europe
+Denmark,"1,46,341",Null,"1,114","1,02,184","43,043",Europe
+Djibouti,"5,800",Null,61,"5,690",49,Africa
+Dominica,88,Null, ,83,5,North America
+Dominican Republic,"1,63,654",Null,"2,404","1,26,732","34,518",North America
+DRC,"16,282",Null,573,"13,982","1,727",Africa
+Ecuador,"2,08,010",Null,"13,977","1,81,618","12,415",South America
+Egypt,"1,28,993",Null,"7,260","1,08,474","13,259",Africa
+El Salvador,"44,619",Null,"1,289","39,989","3,341",North America
+Equatorial Guinea,"5,236",Null,85,"5,078",73,Africa
+Eritrea,951,Null,1,600,350,Africa
+Estonia,"24,582",575,202,"15,543","8,837",Europe
+Eswatini,"8,032",Null,154,"6,952",926,Africa
+Ethiopia,"1,21,399",Null,"1,882","1,06,845","12,672",Africa
+Europe,"2,23,01,246","76,232","5,14,156","1,08,16,142","1,09,70,948",Europe
+Faeroe Islands,561,Null, ,526,35,Europe
+Falkland Islands,29,Null, ,17,12,South America
+Fiji,46,Null,2,44,0,Australia/Oceania
+Finland,"34,648",201,524,"26,000","8,124",Europe
+France,"25,27,509",Null,"62,268","1,88,639","22,76,602",Europe
+French Guiana,"12,685",Null,71,"9,995","2,619",South America
+French Polynesia,"16,550",Null,108,"4,842","11,600",Australia/Oceania
+Gabon,"9,469",Null,64,"9,310",95,Africa
+Gambia,"3,791",Null,123,"3,659",9,Africa
+Georgia,"2,18,724","1,881","2,313","1,96,220","20,191",Asia
+Germany,"16,14,326",Null,"29,681","11,84,400","4,00,245",Europe
+Ghana,"54,043",Null,333,"52,777",933,Africa
+Gibraltar,"1,534",58,6,"1,076",452,Europe
+Greece,"1,34,235",Null,"4,457","9,989","1,19,789",Europe
+Greenland,25,Null, ,19,6,North America
+Grenada,105,Null, ,49,56,North America
+Guadeloupe,"8,588",Null,154,"2,242","6,192",North America
+Guatemala,"1,34,894",Null,"4,749","1,22,965","7,180",North America
+Guinea,"13,646",16,80,"13,049",517,Africa
+Guinea-Bissau,"2,447",Null,45,"2,386",16,Africa
+Guyana,"6,266",Null,162,"5,478",626,South America
+Haiti,"9,805",Null,234,"8,413","1,158",North America
+Honduras,"1,18,036",Null,"3,054","54,806","60,176",North America
+Hong Kong,"8,482",57,136,"7,217","1,129",Asia
+Hungary,"3,14,164","2,610","8,833","1,23,989","1,81,342",Europe
+Iceland,"5,683",Null,28,"5,506",149,Europe
+India,"1,01,47,468",Null,"1,47,128","97,17,834","2,82,506",Asia
+Indonesia,"7,00,097","7,259","20,847","5,70,304","1,08,946",Asia
+Iran,"11,89,203","6,021","54,440","9,33,736","2,01,027",Asia
+Iraq,"5,89,943","1,140","12,755","5,28,872","48,316",Asia
+Ireland,"83,073",Null,"2,192","23,364","57,517",Europe
+Isle of Man,374,Null,25,346,3,Europe
+Israel,"3,93,369","3,691","3,185","3,56,689","33,495",Asia
+Italy,"20,09,317",Null,"70,900","13,44,785","5,93,632",Europe
+Ivory Coast,"22,071",Null,133,"21,629",309,Africa
+Jamaica,"12,519",Null,292,"9,579","2,648",North America
+Japan,"2,06,139",Null,"3,050","1,74,879","28,210",Asia
+Jordan,"2,83,690",Null,"3,681","2,54,496","25,513",Asia
+Kazakhstan,"1,50,198",736,"2,196","1,36,365","11,637",Asia
+Kenya,"95,431",Null,"1,652","76,720","17,059",Africa
+Kuwait,"1,49,017",Null,926,"1,44,898","3,193",Asia
+Kyrgyzstan,"80,025",180,"1,340","74,177","4,508",Asia
+Laos,41,Null, ,37,4,Asia
+Latvia,"35,420",666,502,"23,402","11,516",Europe
+Lebanon,"1,65,933",Null,"1,353","1,17,311","47,269",Asia
+Lesotho,"2,725",Null,51,"1,466","1,208",Africa
+Liberia,"1,779",Null,83,"1,406",290,Africa
+Libya,"97,653",461,"1,415","68,289","27,949",Africa
+Liechtenstein,"1,980",60,30,"1,591",359,Europe
+Lithuania,"1,26,581","2,691","1,205","60,946","64,430",Europe
+Luxembourg,"45,471",Null,461,"37,574","7,436",Europe
+Macao,46,Null, ,46,0,Asia
+Madagascar,"17,633",Null,260,"17,147",226,Africa
+Malawi,"6,277",Null,187,"5,676",414,Africa
+Malaysia,"1,01,565","1,247",449,"82,540","18,576",Asia
+Maldives,"13,558",Null,48,"13,011",499,Asia
+Mali,"6,441",Null,235,"3,968","2,238",Africa
+Malta,"12,112",50,203,"10,547","1,362",Europe
+Marshall Islands,4,Null, ,4,0,Australia/Oceania
+Martinique,"6,049",Null,42,98,"5,909",North America
+Mauritania,"13,118",Null,301,"9,490","3,327",Africa
+Mauritius,527,Null,10,496,21,Africa
+Mayotte,"5,767",Null,54,"2,964","2,749",Africa
+Mexico,"13,62,564","12,485","1,21,172","10,15,256","2,26,136",North America
+Moldova,"1,39,435",Null,"2,848","1,23,924","12,663",Europe
+Monaco,783,Null,3,659,121,Europe
+Mongolia,"1,075",6, ,584,491,Asia
+Montenegro,"45,423",Null,648,"35,809","8,966",Europe
+Montserrat,13,Null,1,12,0,North America
+Morocco,"4,25,864",Null,"7,130","3,88,728","30,006",Africa
+Mozambique,"18,031",Null,156,"16,015","1,860",Africa
+Myanmar,"1,19,788",Null,"2,532","99,927","17,329",Asia
+Namibia,"20,579",Null,187,"17,198","3,194",Africa
+Nepal,"2,57,200",608,"1,816","2,48,292","7,092",Asia
+Netherlands,"7,32,570",Null,"10,826",N/A,0,Europe
+New Caledonia,38,Null, ,37,1,Australia/Oceania
+New Zealand,"2,128",Null,25,"2,054",49,Australia/Oceania
+Nicaragua,"5,991",Null,164,"4,225","1,602",North America
+Niger,"2,933",Null,90,"1,579","1,264",Africa
+Nigeria,"81,963",Null,"1,242","69,651","11,070",Africa
+North America,"2,19,51,065","12,504","4,91,938","1,33,99,871","80,59,256",North America
+North Macedonia,"80,407",Null,"2,375","57,434","20,598",Europe
+Norway,"45,931",Null,421,"37,658","7,852",Europe
+Oman,"1,28,290",Null,"1,491","1,20,441","6,358",Asia
+Pakistan,"4,67,222","2,152","9,753","4,18,958","38,511",Asia
+Palestine,"1,30,598","1,518","1,260","1,06,718","22,620",Asia
+Panama,"2,23,674",Null,"3,715","1,80,045","39,914",North America
+Papua New Guinea,780,Null,9,661,110,Australia/Oceania
+Paraguay,"1,03,329",Null,"2,154","75,509","25,666",South America
+Peru,"10,03,982",Null,"37,317","9,40,040","26,625",South America
+Philippines,"4,67,601","1,885","9,062","4,30,791","27,748",Asia
+Poland,"12,49,079","9,077","26,992","9,84,683","2,37,404",Europe
+Portugal,"3,87,636",Null,"6,413","3,12,533","68,690",Europe
+Qatar,"1,42,734",129,244,"1,40,542","1,948",Asia
+Réunion,"8,846",Null,42,"8,219",585,Africa
+Romania,"6,12,373","3,812","15,023","5,30,308","67,042",Europe
+Russia,"29,92,706","29,018","53,659","23,98,254","5,40,793",Europe
+Rwanda,"7,670",Null,69,"6,203","1,398",Africa
+S. Korea,"54,770","1,237",773,"38,048","15,949",Asia
+Saint Kitts and Nevis,30,Null, ,26,4,North America
+Saint Lucia,305,Null,5,267,33,North America
+Saint Martin,961,Null,12,855,94,North America
+Saint Pierre Miquelon,15,Null, ,14,1,North America
+Samoa,2,Null, ,2,0,Australia/Oceania
+San Marino,"2,231",Null,56,"1,863",312,Europe
+Sao Tome and Principe,"1,012",Null,17,960,35,Africa
+Saudi Arabia,"3,61,725",Null,"6,159","3,52,608","2,958",Asia
+Senegal,"18,369",169,386,"16,785","1,198",Africa
+Serbia,"3,16,344",Null,"2,882","31,536","2,81,926",Europe
+Seychelles,205,Null, ,184,21,Africa
+Sierra Leone,"2,531",Null,76,"1,866",589,Africa
+Singapore,"58,509",14,29,"58,332",148,Asia
+Sint Maarten,"1,385",Null,26,"1,238",121,North America
+Slovakia,"1,65,608","4,046","1,732","1,15,663","48,213",Europe
+Slovenia,"1,12,021",Null,"2,479","91,952","17,590",Europe
+Solomon Islands,17,Null, ,5,12,Australia/Oceania
+Somalia,"4,690",Null,127,"3,605",958,Africa
+South Africa,"9,68,563",Null,"25,983","8,22,978","1,19,602",Africa
+South America,"1,27,70,283","1,057","3,54,197","1,12,77,823","11,38,263",South America
+South Sudan,"3,455",Null,62,"3,118",275,Africa
+Spain,"18,69,610",Null,"49,824",N/A,0,Europe
+Sri Lanka,"39,231",Null,185,"31,339","7,707",Asia
+St. Barth,184,Null,1,172,11,North America
+St. Vincent Grenadines,108,Null, ,85,23,North America
+Sudan,"23,316",Null,"1,468","13,524","8,324",Africa
+Suriname,"5,810",Null,118,"5,388",304,South America
+Sweden,"3,96,048",Null,"8,279",N/A,0,Europe
+Switzerland,"4,28,197",Null,"7,098","3,11,500","1,09,599",Europe
+Syria,"10,701",Null,652,"4,997","5,052",Asia
+Taiwan,780,4,7,640,133,Asia
+Tajikistan,"13,106",Null,89,"12,578",439,Asia
+Tanzania,509,Null,21,183,305,Africa
+Thailand,"5,910",81,60,"4,130","1,720",Asia
+Timor-Leste,41,Null, ,31,10,Asia
+Togo,"3,520",Null,68,"3,186",266,Africa
+Trinidad and Tobago,"7,089",Null,125,"6,503",461,North America
+Tunisia,"1,26,752",Null,"4,324","97,776","24,652",Africa
+Turkey,"21,00,712",Null,"19,115","19,35,292","1,46,305",Asia
+Turks and Caicos,829,19,6,761,62,North America
+UAE,"1,99,665","1,230",653,"1,75,865","23,147",Asia
+Uganda,"32,914",Null,245,"10,821","21,848",Africa
+UK,"21,88,587",Null,"69,625",N/A,0,Europe
+Ukraine,"10,12,167","11,035","17,581","6,46,772","3,47,814",Europe
+Uruguay,"15,457",Null,135,"10,040","5,282",South America
+USA,"1,91,11,326",Null,"3,37,066","1,12,19,123","75,55,137",North America
+Uzbekistan,"76,568",112,612,"73,911","2,045",Asia
+Vanuatu,1,Null, ,1,0,Australia/Oceania
+Vatican City,27,Null, ,15,12,Europe
+Venezuela,"1,11,245",Null,"1,006","1,05,479","4,760",South America
+Vietnam,"1,438",6,35,"1,303",100,Asia
+Wallis and Futuna,4,Null, ,1,3,Australia/Oceania
+Western Sahara,10,Null,1,8,1,Africa
+World,"7,98,46,020","1,23,633","17,51,640","5,62,38,798","2,18,55,582",All
+Yemen,"2,092",Null,606,"1,384",102,Asia
+Zambia,"19,234",Null,381,"18,036",817,Africa
+Zimbabwe,"12,786",Null,339,"10,314","2,133",Africa
+,721,Null,15,706,0,

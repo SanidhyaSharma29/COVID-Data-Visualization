@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+<style>
+
+  .countries {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  .legendThreshold {
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+  .caption {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  }
+
+  .selected{
+    fill: yellow;
+  }
+
+#tooltip {
+  text-align: left;
+  padding: 16px;
+  background-color: #dcd6d6;
+  width: auto;
+  opacity: 0;
+  color: black;
+  position: absolute;
+}
+
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body style="background-color: #f1f7f9;">
+<svg width="960" height="600"></svg>
+<div id="tooltip">
+  <b>Country:</b> <span id="name" class="info"></span><br> 
+<!--   Total: <span id="nametype" class="info"></span><br>
+ -->  <b>Active:</b> <span id="fall" class="info"></span><br> 
+  <!-- Recovered: <span id="mass" class="info"></span><br>  
+  Death: <span id="death" class="info"></span><br> -->
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script>
+
+
+// The svg
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+// Map and projection
+var path = d3.geoPath();
+var projection = d3.geoNaturalEarth()
+    .scale(width / 2 / Math.PI)
+    .translate([width / 2, height / 2])
+var path = d3.geoPath()
+    .projection(projection);
+
+// Data and color scale
+var data = d3.map();
+var colorScheme = d3.schemeReds[6];
+// colorScheme.unshift("#eee")
+var colorScale = d3.scaleThreshold()
+    .domain([ 500, 5000, 10000, 60000, 80000, 1000000 ])
+    .range(colorScheme);
+
+// Legend
+var g = svg.append("g")
+    .attr("class", "6egendThreshold")
+    .attr("transform", "translate(20,20)");
+g.append("text")
+    .attr("class", "caption")
+    .attr("x", 0)
+    .attr("y", -6)
+    .text("Active Corona Cases");
+var labels = ['0-500', '500-5000', '5000-10000', '11-25', '26-100', '101-1000', '> 1000'];
+var legend = d3.legendColor()
+    .labels(function (d) { console.log(d);return labels[d.i]; })
+    .shapePadding(4)
+    .scale(colorScale);
+svg.select(".legendThreshold")
+    .call(legend);
+
+// Load external data and boot
+d3.queue()
+    .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+    .defer(d3.csv, "main.csv", function(d) { data.set(d.country, d.active);})
+    .await(ready);
+
+function ready(error, topo) {
+    if (error) throw error;
+
+    // Draw the map
+    svg.append("g")
+        .attr("class", "countries")
+        .selectAll("path")
+        .data(topo.features)
+        .enter().append("path")
+            .attr("fill", function (d){
+                // Pull data for this country
+                console.log(data.get(d.properties.name))
+                d.active = data.get(d.properties.name) || 0;
+                //d.active = data.get(d.id) || 0;
+                //console.log(data.get(d.id) || 0)
+                // Set the color
+                return colorScale(d.active);
+            })
+            .attr("d", path)
+        .on('mouseover', function(d){d3.select(this).classed('selected', true);console.log(d);
+          d3.select('#name').text(d.properties.name);
+          d3.select('#fall').text(d.active);
+          
+          d3.select('#tooltip')
+            .style('left', (d3.event.pageX + 20) + 'px')
+            .style('top', (d3.event.pageY - 80) + 'px')
+            .style('display', 'block')
+            .style('opacity', 0.8)
+        })
+        .on('mouseout', function(d){console.log(d.properties.name);console.log(d.active);d3.select(this).classed('selected', false); d3.select("#tooltip").style('display', 'none')});
+}
+</script>
+</body>
+</html>
